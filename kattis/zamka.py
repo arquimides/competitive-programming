@@ -23,7 +23,7 @@ for i in range(len(elements)):
     if not min and elements[i] >= L:
         N = elements[i]
         min = True
-    if not max and elements[len(elements) - i - 1]<= D:
+    if not max and elements[len(elements) - i - 1] <= D:
         M = elements[len(elements)-i-1]
         max = True
         
